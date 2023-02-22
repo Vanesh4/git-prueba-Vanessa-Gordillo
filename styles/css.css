@@ -35,19 +35,27 @@ body{
 .imagen{
     background-image: url("/img/yancy-min-842ofHC6MaI-unsplash.jpg");
     background-size: cover;
+    display: flex;
+    align-items: center;
     height: 300px;
     width: 100%;
 }
 .texto{
-    background-color: rgba(255, 255, 232, 0.3);
+    background-color: rgba(255, 255, 232, 0.4);
     width: 30%;
+    height: 30%;
     margin: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    font-size: 20px;
+    font-family: "cursive";
+    text-align: center;
+    padding-top: 15px;
+    
 }
 
 .git, .github{
     width: 46%;
+    padding: 80px 20px 80px 30px;
+    text-align: justify;
 }
 
 .imggits{
@@ -56,10 +64,9 @@ body{
 .section3{
     display: flex;
     flex-wrap:nowrap;
+    justify-content: center;
 }
-/* .comands{
-    width: 30%;
-} */
+
 .imgcomands{
-    width: 100px;
+    width: 150px;
 }
