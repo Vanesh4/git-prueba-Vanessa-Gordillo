@@ -30,10 +30,11 @@ body{
     width: 100%;
     font-family: "cursive";
     font-size: 45px;
+    margin-bottom: -5px;
 }
 
 .imagen{
-    background-image: url("/img/yancy-min-842ofHC6MaI-unsplash.jpg");
+    background-image: url("/git-prueba-Vanessa-Gordillo/img/yancy-min-842ofHC6MaI-unsplash.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -69,4 +70,9 @@ body{
 
 .imgcomands{
     width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #1F8A70;
 }
