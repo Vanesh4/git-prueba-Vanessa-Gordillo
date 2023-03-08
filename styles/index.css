@@ -36,6 +36,15 @@ body{
         justify-content: center;
         padding: 35px;
     }
+
+    .d1 h4{
+        display: flex;
+        color: #000000;
+        background-color: #ffffff;
+        height: 50px;
+        align-items: center;
+        padding: 20px;
+    }
     
     .cont .d2{
         display: flex;
@@ -75,7 +84,6 @@ body{
     }
     
     .cont .d5{
-        display: flex;
         background-color: rgb(59, 7, 181);
         grid-column-start: 1;
         grid-row-start: 6;
@@ -256,7 +264,10 @@ body{
     margin-top: 50px;
     margin-left: 50px;
     }
-    
+    #linkeo{
+        text-decoration: none;
+        color: #000000;
+    }
     [class^="fi"]a{
      color: #ffffff;
     }
